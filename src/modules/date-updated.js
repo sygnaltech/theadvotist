@@ -1,23 +1,8 @@
 
 import { WfuCache, WfuCacheItem } from 'https://cdn.jsdelivr.net/gh/sygnaltech/webflow-util@4.11/src/modules/webflow-cache.js'; 
 
-// Update the header today date 
+// Update the header, set today date 
 // when the DOM is ready
-/*
-document.addEventListener("DOMContentLoaded", function() { 
-	// get the the span element
-	const yrSpan = document.querySelector('.todaysdate');
-  // get the day and months
-  const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
-  const month = ["January","February","March","April","May","June","July","August","September","October","November","December"];
-	// get the current date
-  const d = new Date();
-  let newDate = month[d.getMonth()]+' '+d.getDate() +', '+ d.getFullYear();
-  // set the date span element's text to the current date
-  console.log (newDate); // must not use = here 
-  yrSpan.textContent = newDate;
-});
-*/
 
 $(function() {
   
